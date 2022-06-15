@@ -1,0 +1,33 @@
+.task {
+  /* width: 100%; */
+  margin-top: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* height: 100px; */
+  background-color: #343434;
+  /* border-radius: 20px; */
+  justify-content: baseline;
+  padding: 0 10px;
+}
+.task__checkbox {
+  transform: scale(1.5, 1.5);
+}
+.task__name {
+  color: white;
+  flex: 1;
+  justify-content: flex-start;
+  word-wrap: break-word;
+  width: 50%;
+  margin: 20px 40px;
+}
+.task__name_lt {
+  text-decoration: line-through;
+}
+.task__btn {
+  color: rgb(236, 37, 37);
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

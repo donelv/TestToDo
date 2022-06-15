@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  align-items: baseline;
+  margin: 3px 0;
+}
+.navbar__filter-btn {
+  border: none;
+  border-radius: 5px;
+  background-color: #343434;
+  color: white;
+  font-size: 16px;
+  flex: 1;
+  margin: 5px;
+  cursor: pointer;
+}
+.navbar__filter-btn_active {
+  color: #49a7ff;
+}
